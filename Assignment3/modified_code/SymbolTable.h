@@ -8,7 +8,7 @@ private:
     long long key;
  //   string value;
     int size ;
-    long long aray[33333];
+    long long* aray = new long long[size];
 public:
 
  /*   hashing(){
@@ -22,6 +22,10 @@ public:
          for(int i=0;i<size;i++) {
              aray[i] = -1;
          }
+    }
+
+    void delete_array(){
+        delete[] aray;
     }
 
     void Size(int sizee){

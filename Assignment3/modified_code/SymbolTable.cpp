@@ -1384,6 +1384,7 @@ void SymbolTable::run(string filename)
   //   count(&head);
  //   table.print();
     deletenode(&head);
+    table.delete_array();
   //  cout<<first;
 }
 
