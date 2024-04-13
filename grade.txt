@@ -1,0 +1,3 @@
+Ass1: 93/100 
+Ass2: 84/100
+Ass3: 0/100 ( unlucky because i used fix length array for hash table, i already correct it, but when i checked in a Assignment checker with 10000 examples, i got full score so I guess i could get high score with it)
